@@ -1,3 +1,5 @@
+from config import Config
+
 nsfw_keywords = {
     "general": [
         "porn", "sex", "nude", "naked", "boobs", "tits", "pussy", "dick", "cock", "ass",
