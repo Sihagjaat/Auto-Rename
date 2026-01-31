@@ -43,6 +43,9 @@ nsfw_keywords = {
 }
 
 exception_keywords = ["nxivm", "classroom", "assassination", "geass"]
+async def check_anti_nsfw(new_name, message):
+    if not Config.ANTI_NSFW:
+        return False
 
 async def check_anti_nsfw(new_name, message):
     lower_name = new_name.lower()
