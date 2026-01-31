@@ -32,6 +32,7 @@ class Config(object):
     SUPPORT_CHAT = int(os.environ.get("SUPPORT_CHAT", "-1003596059605"))
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003554063083"))
     FSUB_PIC = os.environ.get("FSUB_PIC", "")
+    ANTI_NSFW = False
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "PlusFileToLinkBot")
     LEADERBOARD_DELETE_TIMER = 30
     # wes response configuration     
